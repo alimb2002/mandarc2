@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#accordion{
+  width: 90%;
+  margin: 0 auto;
+  }
+  #accordion h3{
+    background-color: #3498db;
+    text-align: center;
+    padding: 20px;
+    font-family: tahoma;
+    font-size: 15px;
+  }
+#accordion div{
+  padding: 10px;
+  padding-top: 1px;
+ height: 0;
+ /* transition:all 0.2s ease-in-out; */
+ overflow: hidden;
+ 
+}
+
+
+#accordion div p{
+  line-height: 1.6em;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+#accordion ul li {
+  font-family: tahoma;
+  padding: 15px;
+}
